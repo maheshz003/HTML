@@ -1,0 +1,109 @@
+/* body{
+    margin: 0px;
+    padding: 0px;
+}
+/* 
+ul{
+    list-style-type: none;
+    background-color: black;
+    height: 40px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+    
+}
+a{
+    color: wheat;
+    text-decoration:none;
+    
+}
+li{
+    display: inline;
+    font-size: 20px;
+   
+    
+   
+} */
+
+/* #OUTER{
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    color: white;
+
+   
+}
+#INNER{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    
+ 
+} */
+/* div{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;} */
+    
+
+/* div:hover{
+    background-color: blue;
+} */ 
+
+div{
+    height: 200px;
+    width: 200px;
+    border-radius: 1000px;
+    position: fixed;
+    left: 100px;
+    top: 100px;
+    background-color:white;
+    border: 15px solid blue;
+    border-left: 15px solid red;
+  
+    animation-name: rotation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+ @keyframes rotation{
+    from{ transform: rotate(0deg);
+      
+
+    }
+    to{
+        
+        transform: rotate(360deg);
+    } 
+}
+   /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(5);
+    transform: rotate(0deg,360deg); */
+
+   /* animation-name: coloranimate;
+   animation-duration: 5s;
+   animation-delay: 0s;
+  animation-iteration-count: 10000; */
+   
+        
+    /* }
+    @keyframes coloranimate{
+    from{ spin
+
+    }
+} */
+/* div:hover{
+    background-color: brown;
+    color: wheat;
+    font-size: 100px;
+    border-color: aqua;
+    text-decoration: line-through;
+
+}
+div:active{
+    background-color: blue;
+    color: black;
+} 

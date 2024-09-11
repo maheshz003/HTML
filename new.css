@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+
+}
+
+#navbar {
+    background-color: black;
+    height: 60px;
+    margin-top: 1px;
+    position: fixed;
+    top: 1px;
+
+
+
+}
+
+#logo {
+    color: orange;
+
+}
+
+button {
+    background-color: orange;
+
+
+
+}
+
+a {
+    margin-right: 200px;
+    text-decoration: none;
+}
+
+
+.box {
+    height: 100px;
+    margin-top: 10px;
+    width: 100px; 
+    /* margin-left: 1400px; */
+    border: 5px solid black;
+    background-color: rgba(0, 254, 0, 0.3);
+    color:aqua;
+   position: sticky;
+    top: 1px;
+    right:0px;
+
+
+
+}
+
+.box {
+    display: inline-block;
+}
+
+#boxer {
+    line-height: 100px;
+}
+
+footer {
+    background-color: orange;
+    text-align: center;
+    position: fixed;
+   bottom: 10px;
+    /* left: 700px; */ 
+    color: black;
+    width: 100%;
+}
+body{
+  background-image: url("image.jpg");
+  background-size: auto;
+}
+.box{
+  background-image: url("image.jpg");
+  background-size: cover;
+}
+ /* #boxer{
+    height: 10vh;
+    width: 10vw;
+    background-color: pink;
+    margin-top: 10px;
+    font-size: 10px;
+ }
+ #box{
+    height: 10vh;
+    width: 10vw;
+    background-color: blue;
+    margin-left: 30%;
+    margin-top: 10%;
+    padding-top: 10%;
+    border-radius: 100%;
+    border:5px dotted red;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-size: 1em;
+
+    
+ } */
+  /* div{ */
+    /* display: inline-block;
+  }
+  #box1{
+    height: 100px;
+    width: 100px;
+    background-color:wheat;
+    border: 10px solid red;
+    position: static;
+  }
+  #box2{
+    height: 100px;
+    width: 100px;
+    background-color:green;
+    border: 10px solid red;
+    position: relative;
+    left: 10px;
+    top:50px;
+    right: 10px;
+
+  }
+  #box3{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border: 10px solid red;
+    position: absolute;
+    top: 20px;
+   right: 100px;
+  }
+  #box4{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border: 10px solid red;
+    position: fixed;
+    right: 50px;
+  } */

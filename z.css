@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    
+  
+    
+ 
+}
+
+header {
+    background-color: #FDFFD2;
+    background-image:url("karimage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+   
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family:Franklin Gothic Medium;
+    animation-name: animatey;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+      @keyframes animatey{
+        from{
+          
+        }
+        to{
+          
+        }
+
+      }
+
+      
+h1:hover{
+    color: yellow;
+}
+ul{
+   width: 250px; 
+ 
+}
+div{
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+}
+a{
+    height: 100px;
+}
+td{
+    height: 10px;
+}
+
