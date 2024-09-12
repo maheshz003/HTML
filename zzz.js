@@ -466,38 +466,58 @@ instead we can use */
 // console.log(3+false);
 
 //printing all srtings characters using for loop
-let n ="mahesh";
-for (i=0;i<n.length;i++){
-    console.log(n[i])
-}
+// let n ="mahesh";
+// for (i=0;i<n.length;i++){
+//     console.log(n[i])
+// }
 
 
-let sentence = "this is a fox lives in forest";
-let word = "FOX";
-console.log(`the word ${word} ${sentence.includes(word)?"is":"is not"} present in the sentence`)
+// let sentence = "this is a fox lives in forest";
+// let word = "FOX";
+// console.log(`the word ${word} ${sentence.includes(word)?"is":"is not"} present in the sentence`)
 
-console.log(word.startsWith("F"));
-console.log(word.endsWith("x"));
-console.log(word.toLowerCase());
+// console.log(word.startsWith("F"));
+// console.log(word.endsWith("x"));
+// console.log(word.toLowerCase());
 
 
 //uses of replace method in string
-let price = "please give me RS 1000";
-console.log(price.slice(18));   //removing characters from number 1000 using slice.
-console.log(price.replace(1000,"thousand"));
+// let price = "please give me RS 1000";
+// console.log(price.slice(18));   //removing characters from number 1000 using slice.
+// console.log(price.replace(1000,"thousand"));
 
 
 //printing  arrays using for loop
-let marks = [10,20,30,40,50];
-for(let i=0;i<marks.length;i++){
-    console.log(marks[i]);
-}
+// let marks = [10,20,30,40,50];
+// for(let i=0;i<marks.length;i++){
+//     console.log(marks[i]);
+// }
 // changing array value
-marks[3]=4995;
-console.log(marks); //prints[10,20,30,4995,50]
+// marks[3]=4995;
+// console.log(marks); //prints[10,20,30,4995,50]
 //adding new value to array
-marks[6]=100;
-console.log(marks);//prints [10,20,30,4995,50,empty,100] //as marks[5] is undefined as we have not assigned any value to index 5 of an array of marks
+// marks[6]=100;
+// console.log(marks);//prints [10,20,30,4995,50,empty,100] //as marks[5] is undefined as we have not assigned any value to index 5 of an array of marks
+
+//Array methods
+
+let num = [1,2,3,4,5];
+console.log(num);
+console.log(num.toString());
+console.log(num.pop());
+console.log(num.join("<"));
+console.log(num.toString());
+delete num[2]
+console.log(num.length,num);
+let num2 = [6,7,8,9];
+let numt = num.concat(num2); //using concatination it doesn't change existing array as it creates a new array existing arrays remains same
+console.log(numt.length,numt);
+console.log(num);
+console.log(num2);
+
+
+
+
 
 
 
